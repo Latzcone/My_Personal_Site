@@ -1,5 +1,6 @@
-from flask import Flask, render_template
 from datetime import date
+
+from flask import Flask, render_template
 
 current_year = date.today().year
 
@@ -14,4 +15,4 @@ def hello_world():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
